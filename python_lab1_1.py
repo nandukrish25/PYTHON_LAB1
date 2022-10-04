@@ -1,5 +1,7 @@
-a=input('enter yur age: ')
-b=100-int(a)
-c=b+2022
+import datetime
+a=int(input('enter yur age: '))
+t = datetime.datetime.now()
+b=t.year+(100-a)
 
-print('congratulations you will turn 100 years old in'+''+str(c))
+
+print('congratulations you will turn 100 years old in'+'',b)
